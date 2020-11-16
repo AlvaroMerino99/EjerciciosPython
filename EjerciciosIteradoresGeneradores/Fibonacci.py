@@ -14,5 +14,7 @@ def fibonacci(n):
             sucesion_fibonacci.append(sucesion_fibonacci[i]+sucesion_fibonacci[i-1])
             i+=1
     return sucesion_fibonacci
-resultado=fibonacci(8)
-print(resultado)
+
+if __name__== '__main__':
+    resultado=fibonacci(8)
+    print(resultado)
