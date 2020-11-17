@@ -2,7 +2,7 @@
 #Por ejemplo, si recibe “Qué lindo día que hace hoy” debe devolver: ‘que’: 2, ‘lindo’: 1, ‘día’: 1, ‘hace’: 1, ‘hoy’: 1
 
 #!/usr/bin/env python
-diccionario={}
+diccionario=dict()
 frase=input("Introduzca la frase: ")
 palabras=frase.split(" ")
 for palabra in palabras:
