@@ -11,7 +11,7 @@ if len(contenido) == 0:
 
 fichero.close()
 
-# Vamos a intentar transformar el texto a un número
+# Transformamos el texto a número
 try:
     contador: int = int(contenido)
 
