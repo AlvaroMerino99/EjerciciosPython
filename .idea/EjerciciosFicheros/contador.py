@@ -1,6 +1,7 @@
 from io import open
 import sys
 
+
 fichero = open("contador.txt", "a+")
 fichero.seek(0)
 contenido = fichero.readline()
@@ -10,7 +11,6 @@ if len(contenido) == 0:
     fichero.write(contenido)
 
 fichero.close()
-
 # Transformamos el texto a número
 try:
     contador: int = int(contenido)
